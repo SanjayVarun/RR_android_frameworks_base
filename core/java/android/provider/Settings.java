@@ -8607,6 +8607,12 @@ public static final String PHONE_BLACKLIST_REGEX_ENABLED = "phone_blacklist_rege
          * @hide
          */
         public static final String WEB_ACTION_ENABLED = "web_action_enabled";
+		
+		/**
+         * Whether the device should tint notification title.
+         * @hide
+         */
+        public static final String NOTIFICATION_TITLE_TINT = "notification_title_tint";
 
         /**
          * This are the settings to be backed up.
