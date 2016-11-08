@@ -281,6 +281,16 @@ class FileDescriptorInfo {
         path.compare(path.size() - kApkSuffix.size(), kApkSuffix.size(), kApkSuffix) == 0) {
         return true;
     }
+
+    if (access("/system/framework/XposedBridge.jar", F_OK ) != -1) {
+      // Xposed-powered Zygote might read from extensions other than .apk
+      // so skip extension check
+      ALOGW("Xposed detected, loosening up Zygote fd check!");
+      static const std::string kDataAppPrefix = "/data/app/";
+      if (path.compare(0, kDataAppPrefix.size(), kDataAppPrefix) == 0) {
+        return true;
+        }
+    }
     return false;
   }
 
