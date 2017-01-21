@@ -79,6 +79,7 @@ public class KeyguardStatusView extends GridLayout implements
     private Drawable mWeatherConditionDrawable;
     private TextView mWeatherCurrentTemp;
     private TextView mWeatherConditionText;
+    private boolean mEnableRefresh = false;
     private boolean mShowWeather;
     private int mIconNameValue = 0;
     private int mWIconColor;
@@ -107,9 +108,9 @@ public class KeyguardStatusView extends GridLayout implements
 
         @Override
         public void onTimeChanged() {
-	   refresh();
-                updateClockColor();
-                updateClockDateColor();
+            if (mEnableRefresh) {
+                refresh();
+            }
         }
 
         @Override
@@ -120,19 +121,22 @@ public class KeyguardStatusView extends GridLayout implements
                 updateOwnerInfo();
                 updateClockColor();
                 updateClockDateColor();
+                refreshLockFont();
             }
         }
 
         @Override
         public void onStartedWakingUp() {
             setEnableMarquee(true);
-            updateClockColor();
-            updateClockDateColor();
+            mEnableRefresh = true;
+            refresh();
+            
         }
 
         @Override
         public void onFinishedGoingToSleep(int why) {
             setEnableMarquee(false);
+            mEnableRefresh = false;
         }
 
         @Override
@@ -141,6 +145,7 @@ public class KeyguardStatusView extends GridLayout implements
             updateOwnerInfo();
             updateClockColor();
             updateClockDateColor();
+            refreshLockFont();
         }
     };
 
@@ -189,6 +194,7 @@ public class KeyguardStatusView extends GridLayout implements
         updateOwnerInfo();
         updateClockColor();
         updateClockDateColor();
+        refreshLockFont();
 
         // Disable elegant text height because our fancy colon makes the ymin value huge for no
         // reason.
@@ -199,13 +205,14 @@ public class KeyguardStatusView extends GridLayout implements
     @Override
     protected void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
-        mClockView.setTypeface(Typeface.create("sans-serif", Typeface.NORMAL));
+        mClockView.setTypeface(Typeface.create("sans-serif-thin", Typeface.NORMAL));
         MarginLayoutParams layoutParams = (MarginLayoutParams) mClockView.getLayoutParams();
         layoutParams.bottomMargin = getResources().getDimensionPixelSize(
                 R.dimen.bottom_text_spacing_digital);
         mClockView.setLayoutParams(layoutParams);
         updateclocksize();
         refreshdatesize();
+        refreshLockFont();
         mOwnerInfo.setTextSize(TypedValue.COMPLEX_UNIT_PX,
                 getResources().getDimensionPixelSize(R.dimen.widget_label_font_size));
     }
@@ -398,7 +405,7 @@ public class KeyguardStatusView extends GridLayout implements
         int lockClockFont = isPrimary ? getLockClockFont() : 0;
 
         if (lockClockFont == 0) {
-            mClockView.setTypeface(Typeface.create("sans-serif", Typeface.NORMAL));
+            mClockView.setTypeface(Typeface.create("sans-serif-thin", Typeface.NORMAL));
         }
         if (lockClockFont == 1) {
             mClockView.setTypeface(Typeface.create("sans-serif", Typeface.BOLD));
