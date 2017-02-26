@@ -3867,6 +3867,13 @@ public static final String PHONE_BLACKLIST_REGEX_ENABLED = "phone_blacklist_rege
         public static final String WAKELOCK_BLOCKING_LIST = "wakelock_blocking_list";
 
         /**
+         * Enable blocking wakelock
+         * Boolean value on whether to show weather in the statusbar
+         * @hide
+         */
+        public static final String STATUS_BAR_SHOW_WEATHER = "status_bar_show_weather";
+
+        /**
           * Volume keys control cursor in text fields (default is 0)
           * 0 - Disabled
           * 1 - Volume up/down moves cursor left/right
@@ -5671,9 +5678,10 @@ public static final String PHONE_BLACKLIST_REGEX_ENABLED = "phone_blacklist_rege
         public static final String RECENT_CARD_TEXT_COLOR = "recent_card_text_color";
 
         /**
+         * Unlock keystore with fingerprint after reboot
          * @hide
          */
-        public static final String QS_QUICKBAR_SCROLL_ENABLED = "qs_quickbar_scroll_enabled";
+        public static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
@@ -7221,6 +7229,18 @@ public static final String PHONE_BLACKLIST_REGEX_ENABLED = "phone_blacklist_rege
          */
         public static final String PULSE_LAVALAMP_SOLID_SPEED = "lava_lamp_solid_speed";
  
+        /**
+         * Pulse Solid units count
+         * @hide
+         */
+        public static final String PULSE_SOLID_UNITS_COUNT = "pulse_solid_units_count";
+
+        /**
+         * Pulse Solid units opacity
+         * @hide
+         */
+        public static final String PULSE_SOLID_UNITS_OPACITY = "pulse_solid_units_opacity";
+
         /**
          * A flag containing settings used for biometric weak
          * @hide
@@ -8974,7 +8994,9 @@ public static final String PHONE_BLACKLIST_REGEX_ENABLED = "phone_blacklist_rege
             STATUS_BAR_BATTERY_STYLE_TILE,
             DOZE_ENABLED,
             DOZE_PULSE_ON_PICK_UP,
-            DOZE_PULSE_ON_DOUBLE_TAP
+            DOZE_PULSE_ON_DOUBLE_TAP,
+            ADVANCED_REBOOT,
+            CAMERA_GESTURE_DISABLED
         };
 
         /**
@@ -11466,6 +11488,12 @@ public static final String PHONE_BLACKLIST_REGEX_ENABLED = "phone_blacklist_rege
          * @hide
          */
         public static final String DATABASE_DOWNGRADE_REASON = "database_downgrade_reason";
+
+        /**
+         * Audio focus mode for ringtones when a wired headset is connected
+         * @hide
+         */
+        public static final String WIRED_RINGTONE_FOCUS_MODE = "wired_ringtone_focus_mode";
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
