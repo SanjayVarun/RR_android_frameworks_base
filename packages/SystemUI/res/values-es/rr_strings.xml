@@ -147,9 +147,55 @@
   <string name="quick_settings_location_gps_only_label">Sólo dispositivo</string>
   <string name="quick_settings_location_high_accuracy_label">Alta precisión</string>
   <string name="quick_settings_location_off_label">Ubicación desactivada</string>
+  <string name="quick_settings_location_off_custom_label">Ubicación</string>
   <!-- Language\Locale Tile -->
   <string name="quick_settings_locale_label">Idioma</string>
   <string name="quick_settings_locale_more_locales_toast">Por favor, configure varios idiomas para habilitar la funcionalidad de alternar</string>
+  <!-- Suspend Actions Tile -->
+  <string name="accessibility_quick_settings_suspend_actions_on">Suspender acciones habilitado</string>
+  <string name="accessibility_quick_settings_suspend_actions_off">Suspender acciones deshabilitado</string>
+  <string name="quick_settings_suspend_actions_label">Suspender acciones</string>
+  <!-- Perf Profile Tile -->
+  <string name="qs_tile_performance">Modo de la batería</string>
+  <!-- Content description of the battery mode tile in quick settings when on, power save mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_pwrsv">Modo de la batería: modo de ahorro de energía.</string>
+  <!-- Content description of the battery mode tile in quick settings when on, balanced mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_bal">Modo de la batería: modo equilibrado.</string>
+  <!-- Content description of the battery mode tile in quick settings when on, performance mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_perf">Modo de la batería: modo de alto rendimiento.</string>
+  <!-- Content description of the battery mode tile in quick settings when on, efficiency mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_bias_power">Modo de la batería: modo de eficiente.</string>
+  <!-- Content description of the battery mode tile in quick settings when on, quick mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_bias_perf">Modo de la batería: modo rápido.</string>
+  <!-- Announcement made when the battery mode tile changes to power save (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_pwrsv">Modo de la batería cambiado a modo de ahorro de energía.</string>
+  <!-- Announcement made when the battery mode tile changes to balanced (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_bal">Modo de la batería cambia a modo equilibrado.</string>
+  <!-- Announcement made when the battery mode tile changes to performance (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_perf">Modo de La batería cambiado al modo de alto rendimento.</string>
+  <!-- Announcement made when the battery mode tile changes to efficiency (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_bias_power">Modo de la batería cambia a modo de eficiencia.</string>
+  <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_bias_perf">Modo de la batería cambia a modo rápido.</string>
+  <string name="quick_settings_performance_profile_detail_title">Modo de la batería</string>
+  <!-- Compass QS Tile -->
+  <string name="quick_settings_compass_label">Brújula</string>
+  <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
+  <string name="quick_settings_compass_init">Iniciando\u2026</string>
+  <string name="accessibility_quick_settings_compass_off">Brújula deshabilitada.</string>
+  <string name="accessibility_quick_settings_compass_on">Brújula habilitada.</string>
+  <string name="accessibility_quick_settings_compass_changed_off">La brújula ha sido deshabilitada.</string>
+  <string name="accessibility_quick_settings_compass_changed_on">La brújula ha sido habilitada.</string>
+  <string name="quick_settings_compass_N">N</string>
+  <string name="quick_settings_compass_NE">NE</string>
+  <string name="quick_settings_compass_E">E</string>
+  <string name="quick_settings_compass_SE">SE</string>
+  <string name="quick_settings_compass_S">S</string>
+  <string name="quick_settings_compass_SW">SO</string>
+  <string name="quick_settings_compass_W">O</string>
+  <string name="quick_settings_compass_NW">NO</string>
+  <!-- HW Keys Tile -->
+  <!-- Live display tile -->
   <!-- PA Pie controls -->
   <!-- Kill app toast -->
   <string name="app_killed_message">Mató a la aplicación</string>
@@ -186,11 +232,14 @@
   <string name="tasklist_memory_usage">"Libre • Memoria total : <xliff:g id="number">%s</xliff:g> • <xliff:g id="name">%s</xliff:g>"</string>
   <string name="message_keep_one_launcher">¡Debe mantener al menos una actividad de inicio!</string>
   <string name="tm_clear_task">LIMPIAR</string>
+  <!-- Slim Recents -->
+  <string name="recents_multiwin_warning">Una sesión multiventana ya está activa. \nSimplemente toque una aplicación si desea acoplarla ahora.</string>
+  <string name="recents_multiwin_nolastapp">Has eliminado todos, por favor, elige una aplicación del launcher o cajón de apps.</string>
+  <string name="slim_recent_keyguard">Desbloquear el dispositivo para ver recientes</string>
+  <string name="slim_recent_pinned">Liberar la pantalla para ver recientes</string>
   <!-- Slim recents app sidebar queue app toast -->
   <string name="toast_recents_queue_app">Lanzar %s tras el cierre de recientes</string>
   <string name="toast_recents_cancel_queued_app">Lanzamiento de la app cancelado</string>
-  <!-- Sim recents on keyguard -->
-  <string name="slim_recent_keyguard">Desbloquear el dispositivo para ver recientes</string>
   <!-- Kill button in notification guts -->
   <string name="force_stop_dlg_title">¿Deseas forzar la detención?</string>
   <string name="force_stop_dlg_text">Si fuerzas la detención de una aplicación, es posible que funcione incorrectamente.</string>
@@ -206,4 +255,11 @@
   <string name="omnijaws_package_not_available">OmniJaws no disponible</string>
   <!-- Weather string format in expanded statusbar header -->
   <string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g> <xliff:g id="condition">%2$s</xliff:g></string>
+  <!-- volte icon switch -->
+  <string name="status_bar_volte">VOLTE</string>
+  <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <string name="keyguard_indication_dash_charging_time">Carga rápida (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> hasta completar)</string>
+  <string name="keyguard_plugged_in_dash_charging">Carga Rápida</string>
+  <!-- vpn icon switch -->
+  <!-- data saver icon switch -->
 </resources>

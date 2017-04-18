@@ -99,7 +99,7 @@
   <string name="quick_settings_nfc">NFC</string>
   <string name="quick_settings_nfc_label">NFC</string>
   <string name="quick_settings_nfc_off">NFC Av</string>
-  <string name="quick_settings_screenrecord">SKärminspelning</string>
+  <string name="quick_settings_screenrecord">Skärminspelning</string>
   <string name="quick_settings_screenrecord_on">Spelar in...</string>
   <string name="quick_settings_navigation_bar">Navigeringsfält</string>
   <string name="quick_settings_smartbar">Smart stapel</string>
@@ -150,6 +150,23 @@
   <!-- Language\Locale Tile -->
   <string name="quick_settings_locale_label">Språk</string>
   <string name="quick_settings_locale_more_locales_toast">Konfigurera flera språk om du vill växla mellan funktioner</string>
+  <!-- Suspend Actions Tile -->
+  <!-- Perf Profile Tile -->
+  <!-- Content description of the battery mode tile in quick settings when on, power save mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <!-- Content description of the battery mode tile in quick settings when on, balanced mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_bal">Batteriläge: balanserat läge.</string>
+  <!-- Content description of the battery mode tile in quick settings when on, performance mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_perf">Batteriläge: prestandaläge.</string>
+  <!-- Content description of the battery mode tile in quick settings when on, efficiency mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <!-- Content description of the battery mode tile in quick settings when on, quick mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <!-- Announcement made when the battery mode tile changes to power save (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <!-- Announcement made when the battery mode tile changes to balanced (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <!-- Announcement made when the battery mode tile changes to performance (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <!-- Announcement made when the battery mode tile changes to efficiency (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <!-- Compass QS Tile -->
+  <!-- HW Keys Tile -->
+  <!-- Live display tile -->
   <!-- PA Pie controls -->
   <!-- Kill app toast -->
   <string name="app_killed_message">App tvångsavslutad</string>
@@ -186,13 +203,13 @@
   <string name="tasklist_memory_usage">"Ledigt/Totalt Minne: <xliff:g id="number">%s </xliff:g> / <xliff:g id="name"> %s </xliff:g>"</string>
   <string name="message_keep_one_launcher">Bör behålla minst en hem aktivitet!</string>
   <string name="tm_clear_task">RENSA</string>
+  <!-- Slim Recents -->
+  <string name="recents_multiwin_warning">En flerfönstersession är redan aktiv. \nTryck bara på en app om du vill docka den nu.</string>
+  <string name="recents_multiwin_nolastapp">Du rensade alla senaste appar, välj en app från applådan.</string>
+  <string name="slim_recent_keyguard">Lås upp enheten för att visa senaste appar</string>
   <!-- Slim recents app sidebar queue app toast -->
   <string name="toast_recents_queue_app">Starta %s efter stängning av tidigare appar</string>
   <string name="toast_recents_cancel_queued_app">Avbröt appstart</string>
-  <!-- Sim recents on keyguard -->
-  <string name="slim_recent_keyguard">Lås upp enheten för att visa senaste appar</string>
-  <string name="recents_multiwin_warning">En flerfönstersession är redan aktiv. \nTryck bara på en app om du vill docka den nu.</string>
-  <string name="recents_multiwin_nolastapp">Du rensade alla senaste appar, välj en app från applådan.</string>
   <!-- Kill button in notification guts -->
   <string name="force_stop_dlg_title">Tvinga avslut?</string>
   <string name="force_stop_dlg_text">Om du tvingar appen att avslutas kanske den inte fungerar som den ska.</string>
@@ -208,4 +225,8 @@
   <string name="omnijaws_package_not_available">OmniJaws är inte tillgänglig.</string>
   <!-- Weather string format in expanded statusbar header -->
   <string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g> - <xliff:g id="condition">%2$s</xliff:g></string>
+  <!-- volte icon switch -->
+  <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <!-- vpn icon switch -->
+  <!-- data saver icon switch -->
 </resources>

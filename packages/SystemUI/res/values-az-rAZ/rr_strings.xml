@@ -150,6 +150,21 @@
   <!-- Language\Locale Tile -->
   <string name="quick_settings_locale_label">Dil</string>
   <string name="quick_settings_locale_more_locales_toast">Keçid funksionallığını aktivləşdirmək üçün xahiş edirik birdən çox dil quraşdırın</string>
+  <!-- Suspend Actions Tile -->
+  <!-- Perf Profile Tile -->
+  <!-- Content description of the battery mode tile in quick settings when on, power save mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <!-- Content description of the battery mode tile in quick settings when on, balanced mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <!-- Content description of the battery mode tile in quick settings when on, performance mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <!-- Content description of the battery mode tile in quick settings when on, efficiency mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <!-- Content description of the battery mode tile in quick settings when on, quick mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <!-- Announcement made when the battery mode tile changes to power save (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <!-- Announcement made when the battery mode tile changes to balanced (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <!-- Announcement made when the battery mode tile changes to performance (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <!-- Announcement made when the battery mode tile changes to efficiency (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <!-- Compass QS Tile -->
+  <!-- HW Keys Tile -->
+  <!-- Live display tile -->
   <!-- PA Pie controls -->
   <!-- Kill app toast -->
   <string name="app_killed_message">Tətbiq Sonlandırıldı</string>
@@ -186,12 +201,13 @@
   <string name="tasklist_memory_usage">"Boş • Ümumi Yaddaş : <xliff:g id="number">%s</xliff:g> • <xliff:g id="name">%s</xliff:g>"</string>
   <string name="message_keep_one_launcher">Ən az bir başladıcı olmalıdır!</string>
   <string name="tm_clear_task">TƏMİZLƏMƏK</string>
+  <!-- Slim Recents -->
+  <string name="recents_multiwin_warning">Çoxlu pəncərə sessiyası artıq aktivdir.\nİndi sabitləmək istəyirsinizsə bir tətbiqə toxunun</string>
+  <string name="recents_multiwin_nolastapp">Son istifadə olunanları təmizlədiniz, lütfən başladıcıdan və yaxud tətbiq menyusundan tətbiq seçin.</string>
+  <string name="slim_recent_keyguard">Son istifadə olunanları görmək üçün cihazınızın kilidini açın</string>
   <!-- Slim recents app sidebar queue app toast -->
   <string name="toast_recents_queue_app">Son istifadə olunanları bağladıqdan sonra %s başlat</string>
   <string name="toast_recents_cancel_queued_app">Tətbiq başlatma ləğv edildi</string>
-  <!-- Sim recents on keyguard -->
-  <string name="slim_recent_keyguard">Son istifadə olunanları görmək üçün cihazınızın kilidini açın</string>
-  <string name="recents_multiwin_warning">Çoxlu pəncərə sessiyası artıq aktivdir.\nİndi sabitləmək istəyirsinizsə bir tətbiqə toxunun</string>
   <!-- Kill button in notification guts -->
   <string name="force_stop_dlg_title">Durmaya zorla?</string>
   <string name="force_stop_dlg_text">Tətbiqetməni zorla dayandırsanız, səhv işləyə bilər</string>
@@ -208,4 +224,8 @@
 </string>
   <!-- Weather string format in expanded statusbar header -->
   <string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g> - <xliff:g id="condition">%2$s</xliff:g></string>
+  <!-- volte icon switch -->
+  <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <!-- vpn icon switch -->
+  <!-- data saver icon switch -->
 </resources>

@@ -147,9 +147,55 @@
   <string name="quick_settings_location_gps_only_label">Samo uređaj</string>
   <string name="quick_settings_location_high_accuracy_label">Visoka preciznost</string>
   <string name="quick_settings_location_off_label">Lokacija isključena</string>
+  <string name="quick_settings_location_off_custom_label">Lokacija</string>
   <!-- Language\Locale Tile -->
   <string name="quick_settings_locale_label">Jezik</string>
   <string name="quick_settings_locale_more_locales_toast">Podesite više jezika da biste omogućili uključivanje/isključivanje funkcije</string>
+  <!-- Suspend Actions Tile -->
+  <string name="accessibility_quick_settings_suspend_actions_on">Obustava radnji omogućena</string>
+  <string name="accessibility_quick_settings_suspend_actions_off">Obustava radnji onemogućena</string>
+  <string name="quick_settings_suspend_actions_label">Obustava radnji</string>
+  <!-- Perf Profile Tile -->
+  <string name="qs_tile_performance">Način rada baterije</string>
+  <!-- Content description of the battery mode tile in quick settings when on, power save mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_pwrsv">Način rada baterije: način uštede energije.</string>
+  <!-- Content description of the battery mode tile in quick settings when on, balanced mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_bal">Način rada baterije: uravnotežen način rada.</string>
+  <!-- Content description of the battery mode tile in quick settings when on, performance mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_perf">Način rada baterije: način performansi.</string>
+  <!-- Content description of the battery mode tile in quick settings when on, efficiency mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_bias_power">Način rada baterije: način učinkovitosti.</string>
+  <!-- Content description of the battery mode tile in quick settings when on, quick mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_bias_perf">Način rada baterije: brzi način.</string>
+  <!-- Announcement made when the battery mode tile changes to power save (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_pwrsv">Način rada baterije promijenjen je na način uštede energije.</string>
+  <!-- Announcement made when the battery mode tile changes to balanced (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_bal">Način rada baterije promijenjen je na uravnotežen način rada.</string>
+  <!-- Announcement made when the battery mode tile changes to performance (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_perf">Način rada baterije promijenjen je na performanse.</string>
+  <!-- Announcement made when the battery mode tile changes to efficiency (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_bias_power">Način rada baterije promijenjen je na način rada učinkovitosti.</string>
+  <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_bias_perf">Način rada baterije promijenjen je na brzi način rada.</string>
+  <string name="quick_settings_performance_profile_detail_title">Način rada baterije</string>
+  <!-- Compass QS Tile -->
+  <string name="quick_settings_compass_label">Kompas</string>
+  <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
+  <string name="quick_settings_compass_init">Pokretanje\u2026</string>
+  <string name="accessibility_quick_settings_compass_off">Kompas isključen.</string>
+  <string name="accessibility_quick_settings_compass_on">Kompas uključen.</string>
+  <string name="accessibility_quick_settings_compass_changed_off">Kompas je isključen.</string>
+  <string name="accessibility_quick_settings_compass_changed_on">Kompas je uključen.</string>
+  <string name="quick_settings_compass_N">S</string>
+  <string name="quick_settings_compass_NE">SI</string>
+  <string name="quick_settings_compass_E">I</string>
+  <string name="quick_settings_compass_SE">JI</string>
+  <string name="quick_settings_compass_S">J</string>
+  <string name="quick_settings_compass_SW">JZ</string>
+  <string name="quick_settings_compass_W">Z</string>
+  <string name="quick_settings_compass_NW">SZ</string>
+  <!-- HW Keys Tile -->
+  <!-- Live display tile -->
   <!-- PA Pie controls -->
   <!-- Kill app toast -->
   <string name="app_killed_message">Aplikacija je zatvorena</string>
@@ -186,13 +232,14 @@
   <string name="tasklist_memory_usage">"Slobodno • Ukupna memorija: <xliff:g id="number">%s</xliff:g> • <xliff:g id="name">%s</xliff:g>"</string>
   <string name="message_keep_one_launcher">Trebate zadržati barem jednu početnu aktivnost!</string>
   <string name="tm_clear_task">IZBRIŠI</string>
+  <!-- Slim Recents -->
+  <string name="recents_multiwin_warning">Sesija načina rada s više prozora već je aktivna.\nSamo dodirnite aplikaciju ako je sada želite spojiti.</string>
+  <string name="recents_multiwin_nolastapp">Uklonili ste sve nedavne aplikacije, odaberite aplikaciju iz pokretača ili izbornika aplikacija.</string>
+  <string name="slim_recent_keyguard">Otključajte uređaj da biste vidjeli popis nedavnih aplikacija</string>
+  <string name="slim_recent_pinned">Otkvačite zaslon za prikaz nedavnih aplikacija.</string>
   <!-- Slim recents app sidebar queue app toast -->
   <string name="toast_recents_queue_app">Pokretanje aplikacije %s nakon zatvaranja nedavnih aplikacija</string>
   <string name="toast_recents_cancel_queued_app">Pokretanje aplikacije je otkazano</string>
-  <!-- Sim recents on keyguard -->
-  <string name="slim_recent_keyguard">Otključajte uređaj da biste vidjeli popis nedavnih aplikacija</string>
-  <string name="recents_multiwin_warning">Sesija načina rada s više prozora već je aktivna.\nSamo dodirnite aplikaciju ako je sada želite spojiti.</string>
-  <string name="recents_multiwin_nolastapp">Uklonili ste sve nedavne aplikacije, odaberite aplikaciju iz pokretača ili izbornika aplikacija.</string>
   <!-- Kill button in notification guts -->
   <string name="force_stop_dlg_title">Prisilno zaustaviti?</string>
   <string name="force_stop_dlg_text">Prisilno zaustavljanje aplikacije može rezultirati čudnim ponašanjem aplikacije.</string>
@@ -208,4 +255,11 @@
   <string name="omnijaws_package_not_available">OmniJaws nije dostupan</string>
   <!-- Weather string format in expanded statusbar header -->
   <string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g> <xliff:g id="condition">%2$s</xliff:g></string>
+  <!-- volte icon switch -->
+  <string name="status_bar_volte">VoLTE</string>
+  <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <string name="keyguard_indication_dash_charging_time">Dash punjenje (<xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> do napunjenosti)</string>
+  <string name="keyguard_plugged_in_dash_charging">Dash punjenje</string>
+  <!-- vpn icon switch -->
+  <!-- data saver icon switch -->
 </resources>

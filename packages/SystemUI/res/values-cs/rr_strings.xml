@@ -147,9 +147,55 @@
   <string name="quick_settings_location_gps_only_label">Pouze zařízení</string>
   <string name="quick_settings_location_high_accuracy_label">Vysoká přesnost</string>
   <string name="quick_settings_location_off_label">Poloha vypnuta</string>
+  <string name="quick_settings_location_off_custom_label">Poloha</string>
   <!-- Language\Locale Tile -->
   <string name="quick_settings_locale_label">Jazyk</string>
   <string name="quick_settings_locale_more_locales_toast">Prosím nastavte přepínač umožňující více jazyků</string>
+  <!-- Suspend Actions Tile -->
+  <string name="accessibility_quick_settings_suspend_actions_on">Pozastavené akce povoleny</string>
+  <string name="accessibility_quick_settings_suspend_actions_off">Pozastavené akce zakázány</string>
+  <string name="quick_settings_suspend_actions_label">Pozastavené akce</string>
+  <!-- Perf Profile Tile -->
+  <string name="qs_tile_performance">Režim baterie</string>
+  <!-- Content description of the battery mode tile in quick settings when on, power save mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_pwrsv">Režim baterie: úsporný.</string>
+  <!-- Content description of the battery mode tile in quick settings when on, balanced mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_bal">Režim baterie: vyvážený.</string>
+  <!-- Content description of the battery mode tile in quick settings when on, performance mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_perf">Režim baterie: výkon.</string>
+  <!-- Content description of the battery mode tile in quick settings when on, efficiency mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_bias_power">Režim baterie: účinnost.</string>
+  <!-- Content description of the battery mode tile in quick settings when on, quick mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_bias_perf">Režim baterie: rychlost.</string>
+  <!-- Announcement made when the battery mode tile changes to power save (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_pwrsv">Režim baterie se změnil na úsporný.</string>
+  <!-- Announcement made when the battery mode tile changes to balanced (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_bal">Režim baterie se změnil na vyvážený.</string>
+  <!-- Announcement made when the battery mode tile changes to performance (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_perf">Režim baterie se změnil na výkonný.</string>
+  <!-- Announcement made when the battery mode tile changes to efficiency (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_bias_power">Režim baterie se změnil na účinný.</string>
+  <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_bias_perf">Režim baterie se změnil na rychlý.</string>
+  <string name="quick_settings_performance_profile_detail_title">Režim baterie</string>
+  <!-- Compass QS Tile -->
+  <string name="quick_settings_compass_label">Kompas</string>
+  <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
+  <string name="quick_settings_compass_init">Spouštění\u2026</string>
+  <string name="accessibility_quick_settings_compass_off">Kompas vypnutý.</string>
+  <string name="accessibility_quick_settings_compass_on">Kompas zapnutý.</string>
+  <string name="accessibility_quick_settings_compass_changed_off">Kompas vypnutý.</string>
+  <string name="accessibility_quick_settings_compass_changed_on">Kompas zapnutý.</string>
+  <string name="quick_settings_compass_N">S</string>
+  <string name="quick_settings_compass_NE">SV</string>
+  <string name="quick_settings_compass_E">V</string>
+  <string name="quick_settings_compass_SE">JV</string>
+  <string name="quick_settings_compass_S">J</string>
+  <string name="quick_settings_compass_SW">JZ</string>
+  <string name="quick_settings_compass_W">Z</string>
+  <string name="quick_settings_compass_NW">SZ</string>
+  <!-- HW Keys Tile -->
+  <!-- Live display tile -->
   <!-- PA Pie controls -->
   <!-- Kill app toast -->
   <string name="app_killed_message">Aplikace ukončena</string>
@@ -186,13 +232,14 @@
   <string name="tasklist_memory_usage">"Volná • Celková paměť: [<xliff:g id="number">%s</xliff:g>] • [<xliff:g id="name">%s</xliff:g>]"</string>
   <string name="message_keep_one_launcher">Měli byste mít alespoň jednu aktivitu!</string>
   <string name="tm_clear_task">VYMAZAT</string>
+  <!-- Slim Recents -->
+  <string name="recents_multiwin_warning">Nacházíte se v režimu více oken.\nKlikněte na aplikaci, kterou chcete ukotvit.</string>
+  <string name="recents_multiwin_nolastapp">Odstranili jste všechny nedávné aplikace, spusťte aplikaci z launcheru nebo seznamu.</string>
+  <string name="slim_recent_keyguard">Odemknout zařízení k prohlédnutí nedávných aplikací</string>
+  <string name="slim_recent_pinned">Odpojit obrazovku pro zobrazení nedávných aplikací</string>
   <!-- Slim recents app sidebar queue app toast -->
   <string name="toast_recents_queue_app">Spustit %s po zavření nedávných</string>
   <string name="toast_recents_cancel_queued_app">Zrušit spouštění aplikací</string>
-  <!-- Sim recents on keyguard -->
-  <string name="slim_recent_keyguard">Odemknout zařízení k prohlédnutí nedávných aplikací</string>
-  <string name="recents_multiwin_warning">Nacházíte se v režimu více oken.\nKlikněte na aplikaci, kterou chcete ukotvit.</string>
-  <string name="recents_multiwin_nolastapp">Odstranili jste všechny nedávné aplikace, spusťte aplikaci z launcheru nebo seznamu.</string>
   <!-- Kill button in notification guts -->
   <string name="force_stop_dlg_title">Vynutit ukončení?</string>
   <string name="force_stop_dlg_text">Vynucené zastavení může způsobit nepředvídatelné chování aplikace.</string>
@@ -208,4 +255,11 @@
   <string name="omnijaws_package_not_available">OmniJaws není k dispozici</string>
   <!-- Weather string format in expanded statusbar header -->
   <string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g> <xliff:g id="condition">%2$s</xliff:g></string>
+  <!-- volte icon switch -->
+  <string name="status_bar_volte">VoLTE</string>
+  <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <string name="keyguard_indication_dash_charging_time">Rychlé nabíjení (plně nabito za <xliff:g id="CHARGING_TIME_LEFT">%s</xliff:g>)</string>
+  <string name="keyguard_plugged_in_dash_charging">Rychlé nabíjení</string>
+  <!-- vpn icon switch -->
+  <!-- data saver icon switch -->
 </resources>

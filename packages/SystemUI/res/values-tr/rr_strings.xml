@@ -147,9 +147,55 @@
   <string name="quick_settings_location_gps_only_label">Yalnızca cihaz</string>
   <string name="quick_settings_location_high_accuracy_label">Yüksek doğruluk</string>
   <string name="quick_settings_location_off_label">Konum kapalı</string>
+  <string name="quick_settings_location_off_custom_label">Konum</string>
   <!-- Language\Locale Tile -->
   <string name="quick_settings_locale_label">Dil</string>
   <string name="quick_settings_locale_more_locales_toast">Geçiş işlevselliğini etkinleştirmek için lütfen birden fazla dil yapılandırın</string>
+  <!-- Suspend Actions Tile -->
+  <string name="accessibility_quick_settings_suspend_actions_on">İşlemleri askıya alma etkin</string>
+  <string name="accessibility_quick_settings_suspend_actions_off">İşlemleri askıya alma devre dışı</string>
+  <string name="quick_settings_suspend_actions_label">Eylemleri askıya al</string>
+  <!-- Perf Profile Tile -->
+  <string name="qs_tile_performance">Pil modu</string>
+  <!-- Content description of the battery mode tile in quick settings when on, power save mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_pwrsv">Pil modu; güç tasarrufu modu.</string>
+  <!-- Content description of the battery mode tile in quick settings when on, balanced mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_bal">Pil modu: dengeli mod.</string>
+  <!-- Content description of the battery mode tile in quick settings when on, performance mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_perf">Pil modu: performans modu.</string>
+  <!-- Content description of the battery mode tile in quick settings when on, efficiency mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_bias_power">Pil modu: verimlilik modu.</string>
+  <!-- Content description of the battery mode tile in quick settings when on, quick mode (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_bias_perf">Pil modu: hızlı mod.</string>
+  <!-- Announcement made when the battery mode tile changes to power save (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_pwrsv">Pil modu güç tasarrufu modu olarak değiştirildi.</string>
+  <!-- Announcement made when the battery mode tile changes to balanced (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_bal">Pil modu dengeli mod olarak değiştirildi.</string>
+  <!-- Announcement made when the battery mode tile changes to performance (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_perf">Pil modu performans modu olarak değiştirildi.</string>
+  <!-- Announcement made when the battery mode tile changes to efficiency (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_bias_power">Pil modu verimlilik modu olarak değiştirildi.</string>
+  <!-- Announcement made when the battery mode tile changes to quick (not shown on the screen). [CHAR LIMIT=NONE] -->
+  <string name="accessibility_quick_settings_perf_profile_changed_bias_perf">Pil modu hızlı mod olarak değiştirildi.</string>
+  <string name="quick_settings_performance_profile_detail_title">Pil modu</string>
+  <!-- Compass QS Tile -->
+  <string name="quick_settings_compass_label">Pusula</string>
+  <string name="quick_settings_compass_value"><xliff:g id="degrees">%1$.0f</xliff:g>\u00b0 <xliff:g id="direction">%2$s</xliff:g></string>
+  <string name="quick_settings_compass_init">Başlatılıyor\u2026</string>
+  <string name="accessibility_quick_settings_compass_off">Pusula kapalı.</string>
+  <string name="accessibility_quick_settings_compass_on">Pusula açık.</string>
+  <string name="accessibility_quick_settings_compass_changed_off">Pusula kapatıldı.</string>
+  <string name="accessibility_quick_settings_compass_changed_on">Pusula açıldı.</string>
+  <string name="quick_settings_compass_N">K</string>
+  <string name="quick_settings_compass_NE">KD</string>
+  <string name="quick_settings_compass_E">D</string>
+  <string name="quick_settings_compass_SE">GD</string>
+  <string name="quick_settings_compass_S">G</string>
+  <string name="quick_settings_compass_SW">GB</string>
+  <string name="quick_settings_compass_W">B</string>
+  <string name="quick_settings_compass_NW">KB</string>
+  <!-- HW Keys Tile -->
+  <!-- Live display tile -->
   <!-- PA Pie controls -->
   <!-- Kill app toast -->
   <string name="app_killed_message">Uygulama Sonlandırıldı</string>
@@ -186,13 +232,14 @@
   <string name="tasklist_memory_usage">"Boş • Toplam Bellek: <xliff:g id="number">%s</xliff:g> • <xliff:g id="name">%s</xliff:g>"</string>
   <string name="message_keep_one_launcher">En azından bir başlatıcı olmalı!</string>
   <string name="tm_clear_task">TEMİZLE</string>
+  <!-- Slim Recents -->
+  <string name="recents_multiwin_warning">Çoklu bir pencere oturumu zaten aktif.\nSadece kullanmak istediğiniz uygulamaya dokunmanız yeterli.</string>
+  <string name="recents_multiwin_nolastapp">Son kullanılan uygulamaları temizlediniz, lütfen başlatıcıdan veya uygulama menüsünden uygulama seçin.</string>
+  <string name="slim_recent_keyguard">Son kullanılanları görüntülemek için cihazınızın kilidini açın</string>
+  <string name="slim_recent_pinned">Son kullanılanları görmek için ekranı açın</string>
   <!-- Slim recents app sidebar queue app toast -->
   <string name="toast_recents_queue_app">Son kullanılanları kapattıktan sonra %s uygulamasını başlat</string>
   <string name="toast_recents_cancel_queued_app">Uygulama başlatma iptal edildi</string>
-  <!-- Sim recents on keyguard -->
-  <string name="slim_recent_keyguard">Son kullanılanları görüntülemek için cihazınızın kilidini açın</string>
-  <string name="recents_multiwin_warning">Çoklu bir pencere oturumu zaten aktif.\nSadece kullanmak istediğiniz uygulamaya dokunmanız yeterli.</string>
-  <string name="recents_multiwin_nolastapp">Son kullanılan uygulamaları temizlediniz, lütfen başlatıcıdan veya uygulama menüsünden uygulama seçin.</string>
   <!-- Kill button in notification guts -->
   <string name="force_stop_dlg_title">Durdurmaya zorla?</string>
   <string name="force_stop_dlg_text">Uygulamayı zorla durdurursanız, hatalı davranabilir.</string>
@@ -208,4 +255,11 @@
   <string name="omnijaws_package_not_available">OmniJaws mevcut değil</string>
   <!-- Weather string format in expanded statusbar header -->
   <string name="status_bar_weather_format"><xliff:g id="temp">%1$s</xliff:g> - <xliff:g id="condition">%2$s</xliff:g></string>
+  <!-- volte icon switch -->
+  <string name="status_bar_volte">VOLTE</string>
+  <!-- Indication on the keyguard that is shown when the device is charging with a dash charger. Should match keyguard_plugged_in_dash_charging [CHAR LIMIT=40]-->
+  <string name="keyguard_indication_dash_charging_time">Dash Şarj Oluyor (tam dolmasına <xliff:g id="charging_time_left" example="4 hours and 2 minutes">%s</xliff:g> kaldı)</string>
+  <string name="keyguard_plugged_in_dash_charging">Dash Şarj Oluyor</string>
+  <!-- vpn icon switch -->
+  <!-- data saver icon switch -->
 </resources>
